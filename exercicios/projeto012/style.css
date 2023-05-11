@@ -24,36 +24,83 @@ header >.titulo{
     font-family: 'cordel';
     margin: 0px;
     padding: 60px;
-    font-size: 3.0em;
+    padding-bottom: 0px;
+    font-size: 4.0em;
+    font-weight: normal;
+}
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+}
+nav > a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 main >.a1{
     padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 28px;
-    max-width: 258px;
+    max-width: 335px;
     font-size: 1.9em;
     
 }
 main >.a2{
-    max-width: 258px;
+    height: 545px;
     font-size: 1.9em;
+    padding-top: 40px;   
     padding-left: 28px;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;      
 
 }
+.a2 >p{
+    color: white;
+    padding: 6px;
+    max-width: 335px;
+    background-color: rgba(0, 0, 0, 0.611);
+}
 main >.a3{
-    max-width: 258px;
+    max-width: 335px;
     font-size: 1.9em;
     padding-left: 28px;
 
 }
 main >.a4{
-    max-width: 258px;
+    background-image: url(imagens/background002.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 545px;
     font-size: 1.9em;
+    padding-top: 40px;
     padding-left: 28px;
-
 }
+
+.a4 >p{
+    color: white;
+    padding: 6px;
+    max-width: 335px;
+    background-color: rgba(0, 0, 0, 0.611);
+}
+
 main >.a5{
-    max-width: 258px;
+    max-width: 335px;
     font-size: 1.9em;
-    padding-left: 28px;
-    
+    padding-left: 28px;   
+}
+footer{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+    text-align: center;
+    color: white;
+}
+footer >a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
 }
