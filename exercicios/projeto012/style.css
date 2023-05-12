@@ -23,10 +23,9 @@ header{
 header >.titulo{
     font-family: 'cordel';
     margin: 0px;
-    padding: 60px;
-    padding-bottom: 0px;
-    font-size: 4.0em;
-    font-weight: normal;
+    padding-top: 50px;
+    padding-bottom: 0px;  
+    font-variant: small-caps;
 }
 nav{
     font-family: Arial, Helvetica, sans-serif;
@@ -37,20 +36,21 @@ nav > a{
     color: white;
     text-align: center;
     text-decoration: none;
+    font-weight: bolder;
 }
-main >.a1{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 28px;
-    max-width: 335px;
-    font-size: 1.9em;
-    
+main > section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+main >.a1{  
+    font-size: 1.9em;   
 }
 main >.a2{
     height: 545px;
     font-size: 1.9em;
     padding-top: 40px;   
-    padding-left: 28px;
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -60,14 +60,10 @@ main >.a2{
 .a2 >p{
     color: white;
     padding: 6px;
-    max-width: 335px;
     background-color: rgba(0, 0, 0, 0.611);
 }
 main >.a3{
-    max-width: 335px;
     font-size: 1.9em;
-    padding-left: 28px;
-
 }
 main >.a4{
     background-image: url(imagens/background002.jpg);
@@ -76,21 +72,16 @@ main >.a4{
     background-attachment: fixed;
     height: 545px;
     font-size: 1.9em;
-    padding-top: 40px;
-    padding-left: 28px;
 }
 
 .a4 >p{
     color: white;
     padding: 6px;
-    max-width: 335px;
     background-color: rgba(0, 0, 0, 0.611);
 }
 
 main >.a5{
-    max-width: 335px;
-    font-size: 1.9em;
-    padding-left: 28px;   
+    font-size: 1.9em; 
 }
 footer{
     background-color: black;
@@ -102,5 +93,9 @@ footer{
 footer >a{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    font-weight: bolder;
     color: white;
+}
+a:hover {
+    text-decoration: underline;
 }
