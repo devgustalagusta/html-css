@@ -21,19 +21,35 @@
             background-color: dimgray;
             color: aliceblue;
         }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: dimgray;
+        }
         td.numero{
             text-align: right;
         }
+        caption{
+            font-size: 1.4em;
+            padding: 10px;
+            background-color: darkgray;
+            font-weight: bolder;
+        }
+        tbody >tr:nth-child(even){
+            background-color: rgba(128, 128, 128, 0.336);
+        }
+
     </style>
 </head>
 <body>
     <h1>Uso em tabelas grandes</h1>
 
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th style="width: 70px;" scope="col">População</th>
             </tr>
         </thead>
 
@@ -150,7 +166,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="numero"><strong>207.750.291</strong></td>
             </tr>
         </tfoot>
